@@ -1,0 +1,20 @@
+{
+  "name": "@danetheory/monorepo-boilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "workspaces/**/*"
+  ],
+  "scripts": {
+    "web:dev": "ultra --color --pretty --raw -r --filter '@danetheory/web' dev",
+    "web:build": "ultra --color --pretty --raw -r --filter '@danetheory/web' build",
+    "web:start": "ultra --color --pretty --raw -r --filter '@danetheory/web' start",
+    "dev": "ultra web:dev",
+    "build": "ultra web:build",
+    "start": "ultra web:start"
+  },
+  "devDependencies": {
+    "ultra-runner": "latest"
+  }
+}

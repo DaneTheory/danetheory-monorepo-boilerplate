@@ -1,0 +1,13 @@
+{
+  "name": "@danetheory/bar",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "peerDependencies": {
+    "react": "17.0.1"
+  },
+  "installConfig": {
+    "pnp": true
+  }
+}

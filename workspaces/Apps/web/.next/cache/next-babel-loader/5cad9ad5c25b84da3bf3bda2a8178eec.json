@@ -1,0 +1,1 @@
+{"ast":null,"code":"module.exports = 'foo';","map":{"version":3,"sources":["/Users/bdane/BDane/DANETHEORY/APPS/danetheory-monorepo-boilerplate/node_modules/@danetheory/foo/index.js"],"names":["module","exports"],"mappings":"AAAAA,MAAM,CAACC,OAAP,GAAiB,KAAjB","sourcesContent":["module.exports = 'foo'\n"]},"metadata":{},"sourceType":"script"}
